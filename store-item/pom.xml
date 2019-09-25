@@ -9,15 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.store.common</groupId>
-    <artifactId>store-registry</artifactId>
+    <groupId>com.store.item</groupId>
+    <artifactId>store-item</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-        </dependency>
-
-    </dependencies>
+    <modules>
+        <module>store-item-interface</module>
+        <module>store-item-service</module>
+    </modules>
+    <packaging>pom</packaging>
 
 </project>
